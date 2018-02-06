@@ -274,13 +274,17 @@ function parse_csv_data($file)
         if (!isset($user['LastName']) || (isset($user['LastName']) && empty($user['LastName']))) {
             unset($users[$index]);
             continue;
-        }
+        }else{
+			$user['LastName'] =	iconv( "Windows-1252", "UTF-8",$user['LastName']);
+		}
 
         // FirstName is needed.
         if (!isset($user['FirstName']) || (isset($user['FirstName']) && empty($user['FirstName']))) {
             unset($users[$index]);
             continue;
-        }
+        }else{
+			$user['FirstName'] =	iconv( "Windows-1252", "UTF-8",$user['FirstName']);
+		}
 
         $users[$index] = $user;
     }
