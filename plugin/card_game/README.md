@@ -11,7 +11,7 @@ The plugin should appear as a little icon in the lower-right side of your user
 picture in the left column of the "My courses" list.
 
 ## Migrating from a non-official version
-This plugin was initially designed by _Les Compagnons Bâtisseurs_. If you had
+This plugin was initially designed by _Bâtisseurs Numériques_. If you had
 used it before its review and integration into Chamilo, you will need to
 execute the following changes in your database to update its structure.
 
