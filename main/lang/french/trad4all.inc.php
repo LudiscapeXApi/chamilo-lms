@@ -8381,4 +8381,5 @@ $CompilatioComunicationAjaxImpossible = "Communication AJAX avec le serveur Comp
 $UserClassExplanation = "Information : La liste des classes ci-dessous contient la liste des classes que vous avez déjà inscrits à votre cours. Si cette liste est vide, utilisez le + vert ci-dessus pour ajouter des classes.";
 $InsertTwoNames = "Saisir vos deux noms";
 $AddRightLogo = "Intégrer le logo en haut à droite";
+$ValidityDate = "Date de validité;
 ?>
