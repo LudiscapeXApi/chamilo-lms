@@ -21,7 +21,7 @@ if ($posCtr === false) {
         $fh .= '<script src="'.$pluginPath.'h5p/resources/js/h5p_extras.js'.$version.'" type="text/javascript" ></script>';
         
         $fh .= '<script>if (!jQuery.ui) {';
-        $fh .= "$('body').append('<script src=\"".$webPath."web/assets/jquery-ui/jquery-ui.min.js\"></script>')}</script>';";
+        $fh .= "$('body').append('<script src=\"".$webPath."web/assets/jquery-ui/jquery-ui.min.js\"></script>');}</script>";
 
         $fh .= '<link rel="stylesheet" type="text/css" href="'.$webPath.'web/assets/jquery-ui/themes/smoothness/jquery-ui.min.css">';
         $fh .= '<link rel="stylesheet" type="text/css" href="'.$pluginPath.'h5p/resources/css/window-h5p.css">';
